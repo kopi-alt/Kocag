@@ -1,0 +1,231 @@
+html {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+p {
+    font-family: sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 18px auto;
+}
+
+.hero-name {
+    font-weight: bolder;
+}
+
+.b2a {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: none;
+    text-align: center;
+    transition: background-color 0.35s ease;
+    display: block;
+    margin-bottom: 22px;
+}
+
+.b2a:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.b2b {
+    background-color: rgb(255, 216, 20);
+    border: none;
+    border-radius: 24px;
+    padding: 10px;
+    padding-left: 54px;
+    padding-right: 54px;
+    text-align: center;
+    transition: background-color 0.35s ease;
+    display: block;
+    margin-bottom: 22px;
+}
+
+.b2b:hover {
+    background-color: rgb(238, 203, 28);
+}
+
+.b2c {
+    background-color: rgb(46,164,79);
+    border: none;
+    color: #ffffff;
+    font-weight: bolder;
+    padding: 14px;
+    border-radius: 8px;
+
+    display: block;
+    margin-bottom: 22px;
+    
+}
+
+.b2d {
+    display: block;
+    margin-bottom: 22px;
+}
+
+.b2d1 {
+    background-color: rgb(121,82,179);
+    border-color: rgb(121,82,179);
+    border-style: solid;
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: bolder;
+    padding: 14px;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-right: 8px;
+    transition: background-color 0.35s ease;
+}
+
+.b2d1:hover {
+    background-color: rgb(92, 63, 136);
+}
+
+.b2d2 {
+    background-color: #ffffff;
+    border-color: rgb(108,117,125);
+    border-style: solid;
+    border-radius: 4px;
+    color: rgb(108,117,125);
+    font-weight: bolder;
+    padding: 14px;
+    padding-left: 22px;
+    padding-right: 22px;
+    transition: background-color 0.35s ease;
+}
+
+.b2d2:hover {
+    background-color: rgb(108,117,125);
+    color: #ffffff;
+}
+
+.b2e {
+    display: block;
+    margin-bottom: 22px;
+}
+
+.b2e1 {
+    background-color: rgb(10,102,194);
+    color: #ffffff;
+    border-color: rgb(10,102,194);
+    border-style: solid;
+    border-radius: 22px;
+    font-weight: bolder;
+    padding: 8px;
+    padding-left: 22px;
+    padding-right: 22px;
+    transition: background-color 0.35s ease;
+    margin-right: 8px;
+}
+
+.b2e1:hover {
+    background-color: rgb(9, 89, 169);
+}
+
+.b2e2 {
+    background-color: #ffffff;
+    color: rgb(10,102,194);
+    border-color: rgb(10,102,194);
+    border-style: solid;
+    border-radius: 22px;
+    font-weight: bold;
+    padding: 8px;
+    padding-left: 22px;
+    padding-right: 22px;
+    transition: background-color 0.35s ease;
+}
+
+.b2e2:hover {
+    background-color: rgba(10,102,194,0.2);
+}
+
+.b2f {
+    display: block;
+    margin-bottom: 22px;
+}
+
+.link {
+    color: rgb(0,113,133);
+    text-decoration: underline;
+    transition: color 0.35 ease;
+}
+
+.link:hover {
+    color: rgb(227, 147, 34);
+}
+
+.title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.price {
+    color: rgb(0,118,0);
+    font-weight: bolder;
+}
+
+.addtocart {
+    border: none;
+    background-color: rgb(255,216,20);
+    padding: 8px;
+    width: 120px;
+    border-radius: 28px;
+    margin-right: 8px;
+    transition: background-color 0.35s ease, opacity 0.35s ease;
+}
+
+.addtocart:hover {
+    background-color: rgb(234, 198, 20);
+}
+
+.addtocart:active {
+    opacity: 0.8;
+}
+
+.buynow {
+    border: none;
+    background-color: rgb(255,164,28);
+    padding: 8px;
+    width: 120px;
+    border-radius: 28px;
+    transition: all 0.35s ease;
+}
+
+.buynow:hover {
+    background-color: rgb(236, 152, 27);
+}
+
+.buynow:active {
+    opacity: 0.8;
+}
+
+.hover-up {
+    box-shadow: 0px 2px 12px rgba(0,0,0,0.2);
+    transition: transform 0.35s ease, box-shadow 0.3s ease, background-color 0.35s ease, color 0.35s ease;
+}
+
+.hover-up:hover {
+    cursor: pointer;
+    transform: translateY(-4px);
+    box-shadow: 0px 6px 22px rgba(0,0,0,0.3);
+    transition: transform 0.35s ease, box-shadow 0.3 ease;
+}
+
+.c1 {
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: green;
+    color: #ffffff;
+    padding: 14px;
+    padding-left: 22px;
+    padding-right: 22px;
+    transition: all 0.35s ease;
+}
+
+.c1:hover {
+    transition: all 0.35s ease;
+    padding-left: 32px;
+    padding-right: 32px;
+}
